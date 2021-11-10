@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('../vendor/fonts.css');
 
 @import url('../blocks/photo-gallery/photo-gallery.css');
@@ -11,6 +12,8 @@
 @import url('../blocks/radio-group/__check/radio-group__check.css');
 @import url('../blocks/radio-group/__item/radio-group__item.css');
 @import url('../blocks/radio-group/__label/radio-group__label.css');
+=======
+>>>>>>> 5d619af (Added section/events html markup)
 /* Events */
 @import url('../blocks/events/events.css');
 @import url('../blocks/events/__title/events__title.css');
