@@ -7,7 +7,7 @@
     <title>Гедонизм-фест</title>
     <link rel="stylesheet" href="pages/index.css">
   </head>
-  <body>
+  <body class="body">
     <div class="page">
       <!-- Header -->
       <header class="header">
@@ -26,87 +26,123 @@
         <!-- Events -->
         <section class="events">
           <h2 class="events__title">
-
+            гедонизм-фест — это целая неделя, во время которой просто приятно
           </h2>
           <div class="events__tags">
-            <a href="#" class="events__tag-item"></a>
-            <a href="#" class="events__tag-item"></a>
-            <a href="#" class="events__tag-item"></a>
-            <a href="#" class="events__tag-item"></a>
-            <a href="#" class="events__tag-item"></a>
+            <a href="#" class="events__link">
+              <p class="events__tag-text">посетить мастер-класс</p>
+              <div class="events__tag-image"></div>
+            </a>
+            <a href="#" class="events__link">
+              <p class="events__tag-text">выпить кофе</p>
+              <div class="events__tag-image"></div>
+            </a>
+            <a href="#" class="events__link">
+              <p class="events__tag-text">не выходить из дома</p>
+              <div class="events__tag-image"></div>
+            </a>
+            <a href="#" class="events__link">
+              <p class="events__tag-text">сходить на экскурсию</p>
+              <div class="events__tag-image"></div>
+            </a>
+            <a href="#" class="events__link">
+              <p class="events__tag-text">побывать в музее</p>
+              <div class="events__tag-image"></div>
+            </a>
           </div>
-          <div class="cards">
-            <article class="cards__item">
-              <div class="cards__image"></div>
-              <div class="cards__wrapper">
-                <p class="cards__text"></p>
-                <p class="cards__text"></p>
-              </div>
-              <h2 class="cards__heading"></h2>
-              <p class="cards__description"></p>
-              <div class="cards__wrapper">
-                <p class="cards__text"></p>
-                <a href="" class="cards__text cards__text_type_link"></a>
-              </div>
-              <button class="cards__like-button"></button>
-            </article>
-            <article class="cards__item">
-              <div class="cards__image"></div>
-              <div class="cards__wrapper">
-                <p class="cards__text"></p>
-                <p class="cards__text"></p>
-              </div>
-              <h2 class="cards__heading"></h2>
-              <p class="cards__description"></p>
-              <div class="cards__wrapper">
-                <p class="cards__text"></p>
-                <a href="" class="cards__text cards__text_type_link"></a>
-              </div>
-              <button class="cards__like-button"></button>
-            </article>
-            <article class="cards__item">
-              <div class="cards__image"></div>
-              <div class="cards__wrapper">
-                <p class="cards__text"></p>
-                <p class="cards__text"></p>
-              </div>
-              <h2 class="cards__heading"></h2>
-              <p class="cards__description"></p>
-              <div class="cards__wrapper">
-                <p class="cards__text"></p>
-                <a href="" class="cards__text cards__text_type_link"></a>
-              </div>
-              <button class="cards__like-button"></button>
-            </article>
-            <article class="cards__item">
-              <div class="cards__image"></div>
-              <div class="cards__wrapper">
-                <p class="cards__text"></p>
-                <p class="cards__text"></p>
-              </div>
-              <h2 class="cards__heading"></h2>
-              <p class="cards__description"></p>
-              <div class="cards__wrapper">
-                <p class="cards__text"></p>
-                <a href="#" class="cards__text cards__text_type_link"></a>
-              </div>
-              <button class="cards__like-button"></button>
-            </article>
-            <article class="cards__item">
-              <div class="cards__image"></div>
-              <div class="cards__wrapper">
-                <p class="cards__text"></p>
-                <p class="cards__text"></p>
-              </div>
-              <h2 class="cards__heading"></h2>
-              <p class="cards__description"></p>
-              <div class="cards__wrapper">
-                <p class="cards__text"></p>
-                <a href="" class="cards__text cards__text_type_link"></a>
-              </div>
-              <button class="cards__like-button"></button>
-            </article>
-          </div>
+          <ul class="cards">
+            <li>
+              <article class="cards__item">
+                <img src="images/identity.jpg" alt="" class="cards__image"></img>
+                <div class="cards__content">
+                  <div class="cards__wrapper">
+                    <p class="cards__text">лекция</p>
+                    <p class="cards__text">1 мая, 12:30-13:50</p>
+                  </div>
+                  <h2 class="cards__heading">идентичность: почему нам сложно меняться?</h2>
+                  <p class="cards__description">лектор: Мария Бархатова</p>
+                  <div class="cards__wrapper">
+                    <p class="cards__text">улица Блохина, 22</p>
+                    <p class="cards__text cards__text_type_link">+ ещё 3</p>
+                  </div>
+                </div>
+                <button class="cards__like-button"></button>
+              </article>
+            </li>
+            <li>
+              <article class="cards__item">
+                <img src="images/card-vine.jpg" alt="" class="cards__image"></img>
+                <div class="cards__content">
+                  <div class="cards__wrapper">
+                    <p class="cards__text">еда и напитки</p>
+                    <p class="cards__text">Пн-Вс, 10:00-22:00</p>
+                  </div>
+                  <h2 class="cards__heading">xачапури и вино</h2>
+                  <p class="cards__description">капучино, эспрессо и американо в пользу Ночлежки</p>
+                  <div class="cards__wrapper">
+                    <p class="cards__text">Малая Конюшенная улица</p>
+                    <p class="cards__text">+ ещё 4</p>
+                  </div>
+                </div>
+                <button class="cards__like-button"></button>
+              </article>
+            </li>
+            <li>
+              <article class="cards__item">
+                <img src="images/card-coffee.jpg" alt="" class="cards__image"></img>
+                <div class="cards__content">
+                  <div class="cards__wrapper">
+                    <p class="cards__text">еда и напитки</p>
+                    <p class="cards__text">Пн-Вс, 10:00-22:00</p>
+                  </div>
+                  <h2 class="cards__heading">coffee therapy</h2>
+                  <p class="cards__description">кофе и угощения в пользу Ночлежки</p>
+                  <div class="cards__wrapper">
+                    <p class="cards__text">улица Льва Толстого, 5</p>
+                    <p class="cards__text">+ ещё 24</p>
+                  </div>
+                </div>
+                <button class="cards__like-button"></button>
+              </article>
+            </li>
+            <li>
+              <article class="cards__item">
+                <img src="images/card-halloween.jpg" alt="" class="cards__image"></img>
+                <div class="cards__content">
+                  <div class="cards__wrapper">
+                    <p class="cards__text">посиделки</p>
+                    <p class="cards__text"></p>
+                  </div>
+                  <h2 class="cards__heading">апрельский хэллоуин у Ники</h2>
+                  <p class="cards__description">закрытое событие</p>
+                  <div class="cards__wrapper">
+                    <p class="cards__text"></p>
+                    <p class="cards__text cards__text_type_link"></p>
+                  </div>
+                </div>
+                <button class="cards__like-button"></button>
+              </article>
+            </li>
+            <li>
+              <article class="cards__item">
+                <img src="images/card-coffee.jpg" alt="" class="cards__image"></img>
+                <div class="cards__content">
+                  <div class="cards__wrapper">
+                    <p class="cards__text">еда и напитки</p>
+                    <p class="cards__text">Пн-Вс, 10:00-22:00</p>
+                  </div>
+                  <h2 class="cards__heading">coffee therapy</h2>
+                  <p class="cards__description">кофе и угощения в пользу Ночлежки</p>
+                  <div class="cards__wrapper">
+                    <p class="cards__text">улица Льва Толстого, 5</p>
+                    <p class="cards__text">+ ещё 24</p>
+                  </div>
+                </div>
+                <button class="cards__like-button"></button>
+              </article>
+            </li>
+          </ul>
+          <a href="#" class="events__link events__link_type_all-events">смотреть все события</a>
         </section>
         <!-- Digits -->
         <section class="digits">
