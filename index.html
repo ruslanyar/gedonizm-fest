@@ -40,9 +40,9 @@
           <h2 class="photo-gallery__title">#hedonismfest</h2>
           <p class="photo-gallery__subtitle">Ставь хештег и попади в ленту на сайте</p>
           <div class="photo-gallery__grid">
-            <figure class="photo-gallery__card">
+            <figure class="photo-gallery__card photo-gallery__card_open">
               <!--класс photo-gallery__card_open для анимации в JS-->
-              <img class="photo-gallery__img photo-gallery__card_open" src="./image/girl_photo.png" alt="Девушка">
+              <img class="photo-gallery__img" src="./image/girl_photo.png" alt="Девушка">
             </figure>
             <figure class="photo-gallery__card">
               <img class="photo-gallery__img" src="./image/park_photo.png" alt="Парк">
@@ -58,11 +58,27 @@
             </figure>
           </div>
           <div class="radio-group">
-            <input class="radio-group__check" type="radio" name="check-photo" id="photo-one" checked>
-            <input class="radio-group__check" type="radio" name="check-photo" id="photo-two">
-            <input class="radio-group__check" type="radio" name="check-photo" id="photo-three">
-            <input class="radio-group__check" type="radio" name="check-photo" id="photo-four">
-            <input class="radio-group__check" type="radio" name="check-photo" id="photo-five">
+            <label for="photo-one" class="radio-group__label">
+              <input class="radio-group__check" type="radio" name="check-photo" id="photo-one" checked>
+              <span class="radio-group__item"></span>
+            </label>
+            <label for="photo-two" class="radio-group__label">
+              <input class="radio-group__check" type="radio" name="check-photo" id="photo-two">
+              <span class="radio-group__item"></span>
+            </label>
+            <label for="photo-three" class="radio-group__label">
+              <input class="radio-group__check" type="radio" name="check-photo" id="photo-three">
+              <span class="radio-group__item"></span>
+            </label>
+            <label for="photo-four" class="radio-group__label">
+              <input class="radio-group__check" type="radio" name="check-photo" id="photo-four">
+              <span class="radio-group__item"></span>
+            </label>
+            <label for="photo-five" class="radio-group__label">
+              <input class="radio-group__check" type="radio" name="check-photo" id="photo-five">
+              <span class="radio-group__item"></span>
+            </label>
+            
           </div>
         </section>
         <!-- Logo-gallery -->

@@ -3,7 +3,7 @@
     max-width: 320px;
     display: grid;
     grid-template-columns: repeat(6, minmax(320px, 1fr));
-    grid-template-rows: 1, 1;
+    grid-template-rows: 1fr;
     gap: 20px;
     scroll-snap-type: x mandatory;
     overflow-x: hidden;
