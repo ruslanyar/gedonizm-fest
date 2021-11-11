@@ -1,3 +1,5 @@
 .events {
-  
+  box-sizing: border-box;
+  background-color: #EBE9ED;
+  padding: 40px 0;
 }
