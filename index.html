@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Гедонизм-фест</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="pages/index.css">
   </head>
   <body>
     <div class="page">
@@ -37,11 +37,53 @@
         </section>
         <!-- Photo-gallery -->
         <section class="photo-gallery">
-
+          <h2 class="photo-gallery__title">#hedonismfest</h2>
+          <p class="photo-gallery__subtitle">Ставь хештег и попади в ленту на сайте</p>
+          <div class="photo-gallery__grid">
+            <figure class="photo-gallery__card photo-gallery__card_open">
+              <!--класс photo-gallery__card_open для анимации в JS-->
+              <img class="photo-gallery__img" src="./images/girl_photo.png" alt="Девушка">
+            </figure>
+            <figure class="photo-gallery__card">
+              <img class="photo-gallery__img" src="./images/park_photo.png" alt="Парк">
+            </figure>
+            <figure class="photo-gallery__card">
+              <img class="photo-gallery__img" src="./images/drinks_photo.png" alt="Напитки">
+            </figure>
+            <figure class="photo-gallery__card">
+              <img class="photo-gallery__img" src="./images/gallary_photo.png" alt="Картинная галерея">
+            </figure>
+            <figure class="photo-gallery__card">
+              <img class="photo-gallery__img" src="./images/people_photo.png" alt="Люди">
+            </figure>
+          </div>
+          <div class="radio-group">
+            <label for="photo-one" class="radio-group__label">
+              <input class="radio-group__check" type="radio" name="check-photo" id="photo-one" checked>
+              <span class="radio-group__item"></span>
+            </label>
+            <label for="photo-two" class="radio-group__label">
+              <input class="radio-group__check" type="radio" name="check-photo" id="photo-two">
+              <span class="radio-group__item"></span>
+            </label>
+            <label for="photo-three" class="radio-group__label">
+              <input class="radio-group__check" type="radio" name="check-photo" id="photo-three">
+              <span class="radio-group__item"></span>
+            </label>
+            <label for="photo-four" class="radio-group__label">
+              <input class="radio-group__check" type="radio" name="check-photo" id="photo-four">
+              <span class="radio-group__item"></span>
+            </label>
+            <label for="photo-five" class="radio-group__label">
+              <input class="radio-group__check" type="radio" name="check-photo" id="photo-five">
+              <span class="radio-group__item"></span>
+            </label>
+            
+          </div>
         </section>
         <!-- Logo-gallery -->
         <section class="logo-gallery">
-
+          
         </section>
       </main>
       <!-- Footer -->
