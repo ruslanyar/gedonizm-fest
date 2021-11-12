@@ -6,5 +6,6 @@
   .promote {
     display: flex;
     align-items: baseline;
+    background-color: #FFD400;
   }
 }

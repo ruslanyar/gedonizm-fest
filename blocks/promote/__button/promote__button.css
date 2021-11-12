@@ -14,6 +14,14 @@
   cursor: pointer;
 }
 
+@media screen and (min-width:768px) {
+  .promote__button {
+    background-color: #FFD400;
+    border: 2px solid #3B3748;
+    color: #3B3748;
+  }
+}
+
 @media screen and (min-width:1024px) {
   .promote__button {
     font-size: 18px;
