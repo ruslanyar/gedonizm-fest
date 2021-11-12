@@ -1,4 +1,40 @@
-@import url(../vendor/fonts.css);
+@import url('../vendor/fonts.css');
+@import url('../blocks/body/body.css');
+
+@import url('../blocks/photo-gallery/photo-gallery.css');
+@import url('../blocks/photo-gallery/__title/photo-gallery__title.css');
+@import url('../blocks/photo-gallery/__subtitle/photo-gallery__subtitle.css');
+@import url('../blocks/photo-gallery/__grid/photo-gallery__grid.css');
+@import url('../blocks/photo-gallery/__card/photo-gallery__card.css');
+@import url('../blocks/photo-gallery/__img/photo-gallery__img.css');
+
+@import url('../blocks/radio-group/radio-group.css');
+@import url('../blocks/radio-group/__check/radio-group__check.css');
+@import url('../blocks/radio-group/__item/radio-group__item.css');
+@import url('../blocks/radio-group/__label/radio-group__label.css');
+/* Page */
+@import url('../blocks/page/page.css');
+/* Events */
+@import url('../blocks/events/events.css');
+@import url('../blocks/events/__title/events__title.css');
+@import url('../blocks/events/__tags/events__tags.css');
+@import url('../blocks/events/__tag-item/events__tag-item.css');
+@import url('../blocks/events/__tag-text/events__tag-text.css');
+@import url('../blocks/events/__tag-image/events__tag-image.css');
+@import url('../blocks/events/__link/events__link.css');
+@import url('../blocks/events/__link/_type/events__link_type_all-events.css');
+/* Cards */
+@import url('../blocks/cards/cards.css');
+@import url('../blocks/cards/__item/cards__item.css');
+@import url('../blocks/cards/__image/cards__image.css');
+@import url('../blocks/cards/__content/cards__content.css');
+@import url('../blocks/cards/__wrapper/cards__wrapper.css');
+@import url('../blocks/cards/__text/cards__text.css');
+@import url('../blocks/cards/__heading/cards__heading.css');
+@import url('../blocks/cards/__description/cards__description.css');
+@import url('../blocks/cards/__like-button/cards__like-button.css');
+@import url('../blocks/cards/__link/cards__link.css');
+/* Digits */
 @import url(../blocks/root/root.css);
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/digits/__illustration-description/digits__illustration-description.css);

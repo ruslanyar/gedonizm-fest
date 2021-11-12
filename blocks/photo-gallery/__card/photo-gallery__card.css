@@ -1,0 +1,7 @@
+.photo-gallery__card {
+  margin: 0;
+  height: 320px;
+  max-width: 320px;
+  scroll-snap-align: center;
+}
+
