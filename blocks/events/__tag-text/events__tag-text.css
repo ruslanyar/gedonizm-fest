@@ -5,3 +5,11 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+@media all and (min-width: 1024px) {
+  .events__tag-text {
+    margin: 0 8px 0 0;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

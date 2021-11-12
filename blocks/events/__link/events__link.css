@@ -11,3 +11,9 @@
 .events__link:hover {
   opacity: .7;
 }
+
+@media all and (min-width: 768px) {
+  .events__link {
+    padding: 12px 20px;
+  }
+}

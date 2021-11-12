@@ -5,4 +5,11 @@
   background-color: #fff;
   border-radius: 0 0 24px 24px;
   display: grid;
+  box-sizing: border-box;
+}
+
+@media all and (min-width: 1024px) {
+  .cards__content {
+    min-height: 208px;
+  }
 }
