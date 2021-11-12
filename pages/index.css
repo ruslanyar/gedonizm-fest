@@ -35,7 +35,6 @@
 @import url('../blocks/cards/__like-button/cards__like-button.css');
 @import url('../blocks/cards/__link/cards__link.css');
 /* Digits */
-@import url(../blocks/root/root.css);
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/digits/__illustration-description/digits__illustration-description.css);
 @import url(../blocks/digits/__illustration-title/digits__illustration-title.css);
