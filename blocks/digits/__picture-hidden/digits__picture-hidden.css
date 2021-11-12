@@ -1,0 +1,12 @@
+.digits__picture-hidden {
+  display: none;
+}
+
+@media screen and (min-width: 1276px) {
+  .digits__picture-hidden {
+    display: inline;
+    position: absolute;
+    top: 302px;
+    right: 505px;
+  }
+}
