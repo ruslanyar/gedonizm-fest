@@ -1,0 +1,10 @@
+.promote {
+  background: #F40934;
+}
+
+@media screen and (min-width: 768px) {
+  .promote {
+    display: flex;
+    align-items: baseline;
+  }
+}
