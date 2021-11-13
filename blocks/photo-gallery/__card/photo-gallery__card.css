@@ -4,6 +4,12 @@
   max-width: 320px;
   scroll-snap-align: center;
 }
+@media screen and (max-width: 660px) {
+  .photo-gallery__card {
+    visibility: hidden;
+    opacity: 1;
+  }
+}
 @media screen and (min-width: 660px) {
   .photo-gallery__card:nth-child(1) {
     max-width: 680px;
