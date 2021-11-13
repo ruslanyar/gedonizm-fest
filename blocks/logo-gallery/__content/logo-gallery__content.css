@@ -1,0 +1,5 @@
+.logo-gallery__content {
+  margin-top: 12px;
+  display: flex;
+  overflow-x: hidden;
+}

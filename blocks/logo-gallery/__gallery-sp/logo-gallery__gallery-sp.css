@@ -1,0 +1,13 @@
+.logo-gallery__gallery-sp {
+  margin-left: 24px;
+  min-width: 170px;
+  height: 170px;
+  background-image: url("../../../images/Галерея\ лого.svg");
+  background-size: cover;
+}
+
+@media all and (max-width: 1439px) {
+  .logo-gallery__gallery-sp {
+    background-image: url("../../../images/Галерея_black.png");
+  }
+}
