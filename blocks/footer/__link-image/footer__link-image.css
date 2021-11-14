@@ -1,0 +1,11 @@
+.footer__link-image {
+  width: 18.33px;
+  height: 17.5px;
+}
+@media screen and (min-width: 1024px) {
+  .footer__link-image {
+    width: 22px;
+    height: 21px;
+    padding-left: 9px;
+  }
+}
