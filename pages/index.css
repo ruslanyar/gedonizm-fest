@@ -93,3 +93,17 @@
 @import url("../blocks/about/__text-block/about__text-block.css");
 @import url("../blocks/about/__text/about__text.css");
 @import url("../blocks/about/__explore-button/about__explore-button.css");
+/* Popup */
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/__container/popup__container.css');
+@import url('../blocks/popup/__home/popup__home.css');
+/* Form */
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__field/form__field.css');
+@import url('../blocks/form/__input-radio/form__input-radio.css');
+@import url('../blocks/form/__button/form__button.css');
+@import url('../blocks/form/__amount/form__amount.css');
+@import url('../blocks/form/__input-amount/form__input-amount.css');
+@import url('../blocks/form/__title/form__title.css');
+@import url('../blocks/form/__subtitle/form__subtitle.css');
+@import url('../blocks/form/__input-email/form__input-email.css');
