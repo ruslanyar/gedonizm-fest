@@ -1,0 +1,6 @@
+@font-face {
+  src: url('../fonts/TT_First_Neue/TTFirsNeue-Medium.woff2') format('woff2'),
+       url('../fonts/TT_First_Neue/TTFirsNeue-Medium.woff') format('woff');
+  font-family: 'TT Firs Neue';
+  font-weight: 500;
+}
