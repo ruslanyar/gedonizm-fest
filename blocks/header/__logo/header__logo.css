@@ -1,3 +1,9 @@
 .header__logo {
+  margin-right: 96px;
+}
 
+@media (min-width: 1440px) {
+  .header__logo {
+    margin-right: 66px;
+  }
 }
