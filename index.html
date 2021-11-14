@@ -381,6 +381,60 @@
         </ul>
       </footer>
     </div>
+    <!-- Popup -->
+    <div class="popup">
+      <div class="popup__container">
+        <div class="popup__home"></div>
+        <h2 class="form__title">пожертвовать</h2>
+        <form name="payment" class="form">
+          <h3 class="form__subtitle">сумма</h3>
+
+          <fieldset class="form__field form__field_type_amount">
+
+            <label for="100" class="form__amount">
+              <input type="radio" name="amount" id="100" value="100" class="form__input-radio">
+              <span class="form__button">100 ₽</span>
+            </label>
+
+            <label for="300" class="form__amount">
+              <input type="radio" name="amount" id="300" value="300" class="form__input-radio">
+              <span class="form__button">300 ₽</span>
+            </label>
+
+            <label for="500" class="form__amount">
+              <input type="radio" name="amount" id="500" value="500" class="form__input-radio">
+              <span class="form__button">500 ₽</span>
+            </label>
+
+            <label for="1000" class="form__amount">
+              <input type="radio" name="amount" id="1000" value="1000" class="form__input-radio">
+              <span class="form__button">1 000 ₽</span>
+            </label>
+
+            <label for="3000" class="form__amount">
+              <input type="radio" name="amount" id="3000" value="3000" class="form__input-radio">
+              <span class="form__button">3 000 ₽</span>
+            </label>
+
+            <input type="text" name="amount" id="" placeholder="другая сумма" class="form__input-amount">
+          </fieldset>
+
+          <h3 class="form__subtitle">email</h3>
+          <fieldset class="form__field form__field_type_email">
+            <input type="text" placeholder="укажите почту для отправки чека" class="form__input-email">
+          </fieldset>
+
+          <h3 class="form__subtitle">способ оплаты</h3>
+          <fieldset class="form__field form__field_type_way-pay">
+            <input type="radio" name="way-pay" id="card" class="">
+            <label for="card" class="form__way-pay">банковской картой</label>
+            <input type="radio" name="way-pay" id="paypal" class="">
+            <label for="paypal" class="form__way-pay">PayPal</label>
+          </fieldset>
+          <p class="form__text">Нажимая кнопку «пожертвовать» вы соглашаетесь с условиями оферты, политики в отношении обработки и защиты персональных данных и даёте согласие на их обработку</p>
+        </form>
+      </div>
+    </div>
     <script src="script/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,17 @@
+.form__way-pay {
+  font-family: TT Firs Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3B3748;
+}
+
+/* .form__way-pay::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border: 2px solid #3B3748;
+  border-radius: 50%;
+  padding: 10px;
+} */
