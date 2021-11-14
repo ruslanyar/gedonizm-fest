@@ -97,6 +97,8 @@
 @import url('../blocks/popup/popup.css');
 @import url('../blocks/popup/__container/popup__container.css');
 @import url('../blocks/popup/__home/popup__home.css');
+@import url('../blocks/popup/__close-btn/popup__close-btn.css');
+@import url('../blocks/popup/_is-opened/popup_is-opened.css');
 /* Form */
 @import url('../blocks/form/form.css');
 @import url('../blocks/form/__field/form__field.css');
@@ -110,3 +112,7 @@
 @import url('../blocks/form/__field/_type/form__field_type_amount.css');
 @import url('../blocks/form/__field/_type/form__field_type_way-pay.css');
 @import url('../blocks/form/__way-pay/form__way-pay.css');
+@import url('../blocks/form/__text/form__text.css');
+@import url('../blocks/form/__button/_type/form__button_type_submit.css');
+@import url('../blocks/form/__button/_type/form__button_type_radio.css');
+@import url('../blocks/form/__link/form__link.css');
