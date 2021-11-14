@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background: #ffd400;
+  margin: 0 auto;
+  padding: 40px 20px;
+  max-height: 468px;
+}
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding: 80px 40px;
+    background: #ebe9ed;
+    max-height: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer {
+    max-width: 1360px;
+  }
+}

@@ -75,7 +75,15 @@
 @import url(../blocks/header/__button-to-support/header__button-to-support.css);
 @import url(../blocks/header/__menu/header__menu.css);
 
-
-
-
-
+/*footer*/
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__blocks/footer__blocks.css');
+@import url('../blocks/footer/__title/footer__title.css');
+@import url('../blocks/footer/__list/footer__list.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__link-org/footer__link-org.css');
+@import url('../blocks/footer/__link-image/footer__link-image.css');
+@import url('../blocks/footer/__social/footer__social.css');
+@import url('../blocks/footer/__illustration/footer__illustration.css');
+@import url('../blocks/footer/__social-list/footer__social-list.css');
+@import url('../blocks/footer/__social-link/footer__social-link.css');
