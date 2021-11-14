@@ -1,5 +1,8 @@
 .logo-gallery__content {
   margin-top: 12px;
+  max-height: 170px;
   display: flex;
-  overflow-x: hidden;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-y: hidden;
 }
