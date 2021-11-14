@@ -1,9 +1,11 @@
 .logo-gallery__gallery-sp {
-  margin-left: 24px;
-  min-width: 170px;
+  margin-left: 49px;
+  min-width: 120px;
   height: 170px;
-  background-image: url("../../../images/Галерея\ лого.svg");
-  background-size: cover;
+  background-image: url("../../../images/Галерея.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 @media all and (max-width: 1439px) {

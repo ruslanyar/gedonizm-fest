@@ -1,9 +1,12 @@
 .logo-gallery__market {
-  margin-left: 24px;
-  min-width: 170px;
+  margin-left: 49px;
+  margin-right: 25px;
+  min-width: 120px;
   height: 170px;
-  background-image: url("../../../images/Рынок\ лого.svg");
-  background-size: cover;
+  background-image: url("../../../images/Рынок.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 @media all and (max-width: 1439px) {
