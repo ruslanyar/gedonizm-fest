@@ -16,6 +16,16 @@
     line-height: 36px;
     letter-spacing: -0.01em;
     text-transform: lowercase;
-    margin: 0 auto;
+    margin: 0;
+    flex-basis: 310px;
+  }
+  /*для "сделано с любовью:"*/
+  .footer__title:nth-of-type(2) {
+    flex-basis: 330px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer__title:nth-of-type(2) {
+    flex-basis: 427px;
   }
 }
