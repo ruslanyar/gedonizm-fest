@@ -86,3 +86,10 @@
 @import url('../blocks/footer/__illustration/footer__illustration.css');
 @import url('../blocks/footer/__social-list/footer__social-list.css');
 @import url('../blocks/footer/__social-link/footer__social-link.css');
+/*about*/
+@import url("../blocks/about/about.css");
+@import url("../blocks/about/__content/about__content.css");
+@import url("../blocks/about/__heading/about__heading.css");
+@import url("../blocks/about/__text-block/about__text-block.css");
+@import url("../blocks/about/__text/about__text.css");
+@import url("../blocks/about/__explore-button/about__explore-button.css");
