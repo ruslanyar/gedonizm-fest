@@ -1,0 +1,11 @@
+@media screen and (min-width: 1055px) {
+  .digits__illustration-description_second {
+    position: absolute;
+    top: 320px;
+    left: 280px;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: start;
+    max-width: 285px;
+  }
+}

@@ -1,0 +1,16 @@
+.digits {
+  padding: 40px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .digits {
+    padding: 80px 40px;
+  }
+}
+
+@media screen and (min-width: 899px) {
+  .digits {
+    position: relative;
+    min-height: 812px;
+  }
+}
