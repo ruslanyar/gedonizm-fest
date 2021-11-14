@@ -6,3 +6,9 @@
   background-color: #EBE9ED;
   padding: 40px 0;
 }
+
+@media all and (min-width: 1024px) {
+  .events {
+    padding: 80px 0;
+  }
+}
