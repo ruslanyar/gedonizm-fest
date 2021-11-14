@@ -52,3 +52,10 @@
 @import url(../blocks/promote/__title/promote__title.css);
 @import url(../blocks/promote/__text/promote__text.css);
 @import url(../blocks/promote/__button/promote__button.css);
+
+@import url("../blocks/logo-gallery/logo-gallery.css");
+@import url("../blocks/logo-gallery/__heading/logo-gallery__heading.css");
+@import url("../blocks/logo-gallery/__content/logo-gallery__content.css");
+@import url("../blocks/logo-gallery/__gallery-sp/logo-gallery__gallery-sp.css");
+@import url("../blocks/logo-gallery/__surf/logo-gallery__surf.css");
+@import url("../blocks/logo-gallery/__market/logo-gallery__market.css");
