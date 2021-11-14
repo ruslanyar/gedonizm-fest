@@ -1,0 +1,13 @@
+.header__location {
+  display: none;
+  padding: 0;
+  margin-right: 143px;
+}
+
+@media (min-width: 1440px) {
+  .header__location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
