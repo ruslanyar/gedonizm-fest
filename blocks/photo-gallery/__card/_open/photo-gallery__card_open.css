@@ -1,5 +1,0 @@
-.photo-gallery__card_open {
-    /*класс для анимации в JS*/
-    visibility: visible;
-    opacity: 1;
-}
