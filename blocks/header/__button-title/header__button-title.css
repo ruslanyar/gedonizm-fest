@@ -1,0 +1,13 @@
+.header__button-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media (min-width: 1440px) {
+  .header__button-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

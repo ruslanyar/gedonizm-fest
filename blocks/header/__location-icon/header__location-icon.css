@@ -1,0 +1,15 @@
+.header__location-icon {
+  background-image: url(../../../images/header__location.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #FFD400;
+  box-sizing: border-box;
+  width: 20px;
+  height: 24px;
+  margin: 0 10px 0 0;
+  padding: 0;
+  border-style: none;
+  cursor: pointer;
+  transition: opasity .4s;
+}
