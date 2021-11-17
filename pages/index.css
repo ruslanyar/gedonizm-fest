@@ -93,10 +93,32 @@
 @import url("../blocks/about/__text-block/about__text-block.css");
 @import url("../blocks/about/__text/about__text.css");
 @import url("../blocks/about/__explore-button/about__explore-button.css");
+/* Popup */
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/__container/popup__container.css');
+@import url('../blocks/popup/__home/popup__home.css');
+@import url('../blocks/popup/__close-btn/popup__close-btn.css');
+@import url('../blocks/popup/_is-opened/popup_is-opened.css');
+/* Form */
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__field/form__field.css');
+@import url('../blocks/form/__input-radio/form__input-radio.css');
+@import url('../blocks/form/__button/form__button.css');
+@import url('../blocks/form/__amount/form__amount.css');
+@import url('../blocks/form/__input-amount/form__input-amount.css');
+@import url('../blocks/form/__title/form__title.css');
+@import url('../blocks/form/__subtitle/form__subtitle.css');
+@import url('../blocks/form/__input-email/form__input-email.css');
+@import url('../blocks/form/__field/_type/form__field_type_amount.css');
+@import url('../blocks/form/__field/_type/form__field_type_way-pay.css');
+@import url('../blocks/form/__way-pay/form__way-pay.css');
+@import url('../blocks/form/__text/form__text.css');
+@import url('../blocks/form/__button/_type/form__button_type_submit.css');
+@import url('../blocks/form/__button/_type/form__button_type_radio.css');
+@import url('../blocks/form/__link/form__link.css');
 /*lead*/
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__picture/lead__picture.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__logo/lead__logo.css);
 @import url(../blocks/lead/__button/lead__button.css);
-
