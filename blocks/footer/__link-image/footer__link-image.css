@@ -1,6 +1,11 @@
 .footer__link-image {
   width: 18.33px;
   height: 17.5px;
+  background-image: url('../../../images/footer_link.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 0;
 }
 @media screen and (min-width: 1024px) {
   .footer__link-image {
