@@ -5,3 +5,9 @@
   border-color: #7100FF;
   color: #FCFAF7;
 }
+
+@media all and (min-width: 1024px) {
+  .events__link_type_all-events {
+    margin-left: 40px;
+  }
+}
