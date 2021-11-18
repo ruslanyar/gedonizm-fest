@@ -23,3 +23,4 @@ formPayment.addEventListener('submit', (evt) => {
   evt.preventDefault();
   closePopup(popup);
 });
+
