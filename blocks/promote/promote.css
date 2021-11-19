@@ -1,7 +1,7 @@
 .promote {
   background: #F40934;
   max-width: 1440px;
-  margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -9,5 +9,10 @@
     display: flex;
     align-items: baseline;
     background-color: #FFD400;
+  }
+}
+@media screen and (min-width:1024px) {
+  .promote {
+    padding-bottom: 80px;
   }
 }

@@ -18,3 +18,10 @@
     padding-top: 0;
   }
 }
+
+@media screen and (min-width: 1055px) {
+  .digits__illustration-title:last-of-type {
+    top: 504px;
+    left: 280px;
+  }
+}
