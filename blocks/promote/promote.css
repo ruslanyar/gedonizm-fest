@@ -2,6 +2,7 @@
   background: #F40934;
   max-width: 1440px;
   padding-bottom: 40px;
+  margin: auto;
 }
 
 @media screen and (min-width: 768px) {
