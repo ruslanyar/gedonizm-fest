@@ -27,3 +27,11 @@
     padding-bottom: 0;
   }
 }
+
+@media screen and (min-width: 1055px) {
+  .digits__illustration-description:last-of-type {
+    top: 320px;
+    left: 280px;
+    max-width: 285px;
+  }
+}

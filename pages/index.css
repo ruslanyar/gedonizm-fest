@@ -42,16 +42,12 @@
 @import url(../blocks/digits/__image/digits__image.css);
 @import url(../blocks/digits/__title/digits__title.css);
 @import url(../blocks/digits/__picture-hidden/digits__picture-hidden.css);
-@import url(../blocks/digits/__picture-hidden/_second/digits__picture-hidden_second.css);
-@import url(../blocks/digits/__image/_second/digits__image_second.css);
-@import url(../blocks/digits/__illustration-title/_second/digits__illustration-title_second.css);
-@import url(../blocks/digits/__illustration-description/_second/digits__illustration-description_second.css);
-@import url(../blocks/digits/__pic/digits__pic.css);
 /* Promote */
 @import url(../blocks/promote/promote.css);
 @import url(../blocks/promote/__title/promote__title.css);
 @import url(../blocks/promote/__text/promote__text.css);
-@import url(../blocks/promote/__button/promote__button.css);
+@import url(../blocks/promote/__link/promote__link.css);
+@import url(../blocks/promote/__link-text/promote__link-text.css);
 
 @import url("../blocks/logo-gallery/logo-gallery.css");
 @import url("../blocks/logo-gallery/__heading/logo-gallery__heading.css");
