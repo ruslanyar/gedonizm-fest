@@ -13,6 +13,7 @@ function openPopup (elem) {
 
 function closePopup (elem) {
   elem.classList.remove('popup_is-opened');
+  formPayment.reset();
 }
 
 scrollContainer.addEventListener('wheel', (evt) => {
