@@ -5,3 +5,9 @@
   border-radius: 100px;
   margin: 16px auto;
 }
+
+@media all and (min-width: 1024px) {
+  .popup__home {
+    display: none;
+  }
+}

@@ -10,4 +10,15 @@
   position: absolute;
   top: 28px;
   right: 20px;
+  cursor: pointer;
+}
+
+@media all and (min-width: 1024px) {
+  .popup__close-btn {
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    top: 54px;
+    right: 40px;
+  }
 }
