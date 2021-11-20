@@ -1,12 +1,13 @@
 .header {
   margin: 0 auto;
-  padding: 12px 22px;
+  padding: 12px 20px;
   box-sizing: border-box;
   display: flex;
+  /* justify-content: center; */
   min-width: 320px;
   max-width: 1440px;
-  width: 100%;
   background-color: #FFD400;
+  /* position: fixed; */
 }
 
 @media (min-width: 1024px) {

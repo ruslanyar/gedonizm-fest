@@ -13,6 +13,7 @@
   .header__button-title {
     font-size: 18px;
     line-height: 24px;
+    min-width: 84px;
   }
 }
 
