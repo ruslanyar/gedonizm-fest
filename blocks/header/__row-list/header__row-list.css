@@ -1,7 +1,8 @@
 .header__row-list {
   display: flex;
-  flex-direction: row;
+  box-sizing: border-box;
   align-items: center;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
   list-style: none;

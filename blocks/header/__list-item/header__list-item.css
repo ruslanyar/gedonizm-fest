@@ -1,5 +1,9 @@
 .header__list-item {
   margin-right: 44px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__list-item:last-of-type {

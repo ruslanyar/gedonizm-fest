@@ -4,11 +4,8 @@
   background-size: 100%;
   width: 20px;
   height: 18px;
-  background-color: #FFD400;
-  border-style: none;
-  cursor: pointer;
-  transition: opasity .4s;
   margin-right: 4px;
+  box-sizing: border-box;
 }
 
 @media (min-width: 1440px) {

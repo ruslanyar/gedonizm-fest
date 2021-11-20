@@ -1,6 +1,7 @@
 .header__row-links {
   display: none;
-  margin-right: 155px;
+  margin-right: 131px;
+  box-sizing: border-box;
 }
 
 @media (min-width: 1440px) {
