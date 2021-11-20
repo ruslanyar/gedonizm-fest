@@ -1,9 +1,11 @@
 .opened-menu {
   position: fixed;
+  box-sizing: border-box;
+  width: 100%;
   top: 88px;
-  height: 100vh - 88px;
+  height: calc(100% - 88px);
   padding: 20px;
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: #FCFAF7;
 }

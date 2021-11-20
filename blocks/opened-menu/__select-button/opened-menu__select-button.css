@@ -1,5 +1,10 @@
 .opened-menu__select-button {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
+  margin-top: 24px;
   background-image: url("../../../images/select-button.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:none;
 }
