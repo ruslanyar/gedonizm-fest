@@ -1,0 +1,4 @@
+.opened-menu__city-selector {
+  display: flex;
+  justify-content: space-between;
+}

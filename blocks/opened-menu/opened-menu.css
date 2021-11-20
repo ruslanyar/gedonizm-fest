@@ -1,0 +1,9 @@
+.opened-menu {
+  position: fixed;
+  top: 88px;
+  height: 100vh - 88px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FCFAF7;
+}
