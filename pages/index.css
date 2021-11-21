@@ -101,7 +101,6 @@
 @import url(../blocks/lead/__button/lead__button.css);
 /*Opened menu*/
 @import url("../blocks/opened-menu/opened-menu.css");
-@import url("../blocks/opened-menu/_opened/opened-menu_opened.css");
 @import url("../blocks/opened-menu/__city-selector/opened-menu__city-selector.css");
 @import url("../blocks/opened-menu/__donate-button/opened-menu_donate-button.css");
 @import url("../blocks/opened-menu/__logo-subtitel/opened-menu__logo-subtitel.css");
@@ -112,4 +111,10 @@
 @import url("../blocks/opened-menu/__selected-city/opened-menu__selected-city.css");
 @import url("../blocks/opened-menu/__your-city/opened-menu__your-city.css");
 @import url("../blocks/opened-menu/__list/opened-menu__list.css");
-
+@import url("../blocks/opened-menu/__city-select/opened-menu__city-select.css");
+@import url("../blocks/opened-menu/__pseudo-radio/opened-menu__pseudo-radio.css");
+@import url("../blocks/opened-menu/__radio-btn/opened-menu__radio-btn.css");
+@import url("../blocks/opened-menu/_disabled/opened-menu_disabled.css");
+@import url("../blocks/opened-menu/__city-select/_disabled/opened-menu__city-select_disabled.css");
+@import url("../blocks/opened-menu/__back-button/opened-menu__back-button.css");
+@import url("../blocks/opened-menu/__target-city/opened-menu__target-city.css");
