@@ -420,6 +420,58 @@
         <button type="button" class="popup__close-btn"></button>
       </div>
     </div>
+    <!-- Раскрытое меню -->
+    <div class="opened-menu opened-menu_disabled">
+      <div class="opened-menu__your-city">ваш город</div>
+      <div class="opened-menu__city-selector">
+        <button class="opened-menu__select-button"></button>
+        <div class="opened-menu__selected-city opened-menu__target-city">Санкт-Петербург</div>
+      </div>
+      <nav class="opened-menu__navi">навигация</nav>
+      <ul class="opened-menu__list">
+        <li>
+          <div class="opened-menu__nav-item">куда пойти</div>
+        </li>
+        <li>
+          <div class="opened-menu__nav-item">стать участником</div>
+        </li>
+        <li>
+          <div class="opened-menu__nav-item">о фестивале</div>
+        </li>
+      </ul>
+      <div class="opened-menu__logo"></div>
+      <div class="opened-menu__logo-subtitel">благотворительная организация</div>
+      <button class="opened-menu_donate-button">пожертвовать</button>
+    </div>
+    <form class="opened-menu__city-select opened-menu_disabled opened-menu__city-select_disabled" name="city-select-form">
+      <button class="opened-menu__back-button">← назад</button>
+      <div class="opened-menu__your-city">ваш город</div>
+      <label for="moscow" class="opened-menu__city-selector">
+        <input class="opened-menu__radio-btn" type="radio" name="city" id="moscow" value="Москва">
+        <span class="opened-menu__pseudo-radio"></span>
+        <span class="opened-menu__selected-city">Москва</span>
+      </label>
+      <label for="SPB" class="opened-menu__city-selector">
+        <input class="opened-menu__radio-btn" type="radio" name="city" id="SPB" value="Санкт-Петербург" checked>
+        <span class="opened-menu__pseudo-radio"></span>
+        <span class="opened-menu__selected-city">Санкт-Петербург</span>
+      </label>
+      <label for="Sochi" class="opened-menu__city-selector">
+        <input class="opened-menu__radio-btn" type="radio" name="city" id="Sochi" value="Сочи">
+        <span class="opened-menu__pseudo-radio"></span>
+        <span class="opened-menu__selected-city">Сочи</span>
+      </label>
+      <label for="Kaluga" class="opened-menu__city-selector">
+        <input class="opened-menu__radio-btn" type="radio" name="city" id="Kaluga" value="Калуга">
+        <span class="opened-menu__pseudo-radio"></span>
+        <span class="opened-menu__selected-city">Калуга</span>
+      </label>
+      <label for="Ekaterinburg" class="opened-menu__city-selector">
+        <input class="opened-menu__radio-btn" type="radio" name="city" id="Ekaterinburg" value="Екатеринбург">
+        <span class="opened-menu__pseudo-radio"></span>
+        <span class="opened-menu__selected-city">Екатеринбург</span>
+      </label>
+    </form>
     <script src="scripts/index.js"></script>
   </body>
 </html>
