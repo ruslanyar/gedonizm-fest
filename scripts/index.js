@@ -71,56 +71,25 @@ for (let i=0; i<cityRadioBtns.length; i++)
   }));
 }
 /*функционал секции photo-gallery*/
-const chboxOne = document.querySelector('#photo-one');
-const chboxTwo = document.querySelector('#photo-two');
-const chboxThree = document.querySelector('#photo-three');
-const chboxFour = document.querySelector('#photo-four');
-const chboxFive = document.querySelector('#photo-five');
-const ImageOne = document.querySelector('.photo-gallery__card:nth-child(1)');
-const ImageTwo = document.querySelector('.photo-gallery__card:nth-child(2)');
-const ImageThree = document.querySelector('.photo-gallery__card:nth-child(3)');
-const ImageFour = document.querySelector('.photo-gallery__card:nth-child(4)');
-const ImageFive = document.querySelector('.photo-gallery__card:nth-child(5)');
 /*добавление класса к карточке для переключения фото в секции photo-gallery*/
 function checkPhoto(photo) {
   photo.classList.add("photo-gallery__card_open");
-};
+}
+
 /*удаление класса у карточки для переключения фото в секции photo-gallery*/
 function removeCheck(photo) {
   photo.classList.remove("photo-gallery__card_open");
-};
-chboxOne.addEventListener('click', function() {
-  checkPhoto(ImageOne);
-  removeCheck(ImageTwo);
-  removeCheck(ImageThree);
-  removeCheck(ImageFour);
-  removeCheck(ImageFive);
-});
-chboxTwo.addEventListener('click', function() {
-  checkPhoto(ImageTwo);
-  removeCheck(ImageOne);
-  removeCheck(ImageThree);
-  removeCheck(ImageFour);
-  removeCheck(ImageFive);
-});
-chboxThree.addEventListener('click', function() {
-  checkPhoto(ImageThree);
-  removeCheck(ImageOne);
-  removeCheck(ImageTwo);
-  removeCheck(ImageFour);
-  removeCheck(ImageFive);
-});
-chboxFour.addEventListener('click', function() {
-  checkPhoto(ImageFour);
-  removeCheck(ImageOne);
-  removeCheck(ImageTwo);
-  removeCheck(ImageThree);
-  removeCheck(ImageFive);
-});
-chboxFive.addEventListener('click', function() {
-  checkPhoto(ImageFive);
-  removeCheck(ImageOne);
-  removeCheck(ImageTwo);
-  removeCheck(ImageThree);
-  removeCheck(ImageFour);
-});
+}
+
+const photoGallerySection = document.querySelector('.photo-gallery');
+const radioBtns = photoGallerySection.querySelectorAll('.radio-group__check');
+const images = photoGallerySection.querySelectorAll('.photo-gallery__card');
+
+radioBtns.forEach((el, index, btns) => el.addEventListener('click', (evt) => {
+  images.forEach((image, i) => {
+    removeCheck(image);
+    if (Array.from(btns).indexOf(evt.target) === i) {
+      checkPhoto(image);
+    }
+  });
+}));
