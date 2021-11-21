@@ -1,4 +1,5 @@
 .logo-gallery__gallery-sp {
+  display: inline-block;
   margin-left: 49px;
   min-width: 120px;
   height: 170px;
