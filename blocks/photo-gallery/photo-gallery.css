@@ -1,8 +1,7 @@
 .photo-gallery {
   margin: 40px auto;
-  min-height: 500px;
+  min-height: 420px;
   max-width: 320px;
-  font-family: "TT Firs Neue";
   background-color: #fff;
   box-sizing: border-box;
 }
@@ -20,7 +19,7 @@
 @media screen and (min-width: 1440px) {
   .photo-gallery {
     margin: 0 auto;
-    padding: 80px 60px 80px 40px;
+    padding: 80px 60px 0 40px;
     max-width: 1440px;
   }
 }
