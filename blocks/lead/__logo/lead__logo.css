@@ -2,12 +2,12 @@
   width: 210px;
   height: 152px;
   object-fit: cover;
+
 }
 
 @media all and (min-width: 768px) {
   .lead__logo {
     width: 315px;
     height: 228px;
-    margin-top: 266px;
   }
 }

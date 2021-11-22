@@ -8,8 +8,8 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="pages/index.css">
   </head>
-  <body class="body">
-    <div class="page">
+  <body class="page">
+    <div class="page__container">
       <!-- Header -->
       <header class="header">
         <img
@@ -57,20 +57,23 @@
       <!-- Content -->
       <main class="content">
         <!-- Lead -->
-        <section class="lead">
+        <section class="lead page__content">
           <div class="lead__picture">
             <img
               src="./images/lead__logo.svg"
               alt="логотип"
               class="lead__logo">
+          </div>
+          <div>
             <a href="#link" class="lead__title">узнать больше
               <div class="lead_button"></div>
             </a>
+          </div>
         </section>
         <!-- About -->
         <section class="about">
           <div class="about__content">
-            <h2 class="about__heading">просто приятно помогать</h2>
+            <h2 id="link" class="about__heading">просто приятно помогать</h2>
             <div class="about__text-block">
               <a href="#" class="about__text">Пейте кофе в любимых заведениях, посещайте интересные мероприятия,
                 устраивайте домашние посиделки с друзьями — и помогайте бездомным!</a>

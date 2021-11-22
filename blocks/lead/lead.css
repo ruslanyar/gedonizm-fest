@@ -1,21 +1,24 @@
 .lead {
-  margin: 0 auto;
+  margin: 0;
   box-sizing: border-box;
   background-image: url(../../images/lead__mobile.png);
   background-color: #FCFAF7;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  min-height: 652px;
+  height: calc(100vh - 68px);
   min-width: 320px;
   max-width: 1440px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: center;
 }
 
 @media all and (min-width: 768px) {
   .lead {
     background-image: url(../../images/lead__desktop.png);
-    min-height: 760px;
+    height: calc(100vh - 88px);
+    background-size: contain;
   }
 }

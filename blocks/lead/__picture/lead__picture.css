@@ -1,12 +1,5 @@
 .lead__picture {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: end;
-}
-
-@media all and (min-width: 1024px) {
-  .lead__picture {
-    justify-content: flex-start;
-  }
+  align-self: center;
 }
