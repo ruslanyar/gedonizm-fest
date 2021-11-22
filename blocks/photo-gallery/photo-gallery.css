@@ -4,6 +4,7 @@
   max-width: 320px;
   background-color: #fff;
   box-sizing: border-box;
+  text-align: center;
 }
 @media screen and (min-width: 660px) {
   .photo-gallery {

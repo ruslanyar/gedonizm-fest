@@ -12,4 +12,5 @@
 }
 .radio-group__check:checked + .radio-group__item {
   background: #3B3748;
+  transition: background-color 0.3s;
 }
