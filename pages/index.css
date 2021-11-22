@@ -11,7 +11,6 @@
 @import url('../blocks/radio-group/radio-group.css');
 @import url('../blocks/radio-group/__check/radio-group__check.css');
 @import url('../blocks/radio-group/__item/radio-group__item.css');
-@import url('../blocks/radio-group/__label/radio-group__label.css');
 /* Page */
 @import url('../blocks/page/page.css');
 /* Events */
@@ -76,7 +75,6 @@
 @import url('../blocks/footer/__list/footer__list.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__link-org/footer__link-org.css');
-
 @import url('../blocks/footer/__social/footer__social.css');
 @import url('../blocks/footer/__illustration/footer__illustration.css');
 @import url('../blocks/footer/__social-list/footer__social-list.css');
