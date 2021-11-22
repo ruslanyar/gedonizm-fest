@@ -9,11 +9,10 @@
   cursor: pointer;
   transition: opasity .4s;
   display: none;
-  box-sizing: border-box;
   padding: 0;
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
   .header__button-to-support {
     display: flex;
     margin-left: 8px;

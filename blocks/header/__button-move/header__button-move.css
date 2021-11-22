@@ -9,7 +9,7 @@
   transition: opasity .4s;
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
   .header__button-move {
     padding: 14px 24px 13px 24px;
   }

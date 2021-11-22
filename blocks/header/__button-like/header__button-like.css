@@ -5,10 +5,9 @@
   width: 20px;
   height: 18px;
   margin-right: 4px;
-  box-sizing: border-box;
 }
 
-@media (min-width: 1440px) {
+@media all and (min-width: 1440px) {
   .header__button-like {
     margin-right: 8px;
     width: 24px;
