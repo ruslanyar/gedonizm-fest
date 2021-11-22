@@ -8,22 +8,21 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="pages/index.css">
   </head>
-  <body class="body">
-    <div class="page">
+  <body class="page">
+    <div class="page__container">
       <!-- Header -->
       <header class="header">
         <img
           src="./images/header_logo.svg"
           alt="логотип_гедонизмфест"
           class="header__logo">
-        <div class="header__location">
-          <button
-            class="header__location-icon"
-            type="button"
-            aria-label="место">
-          </button>
-          <h2 class="header__place">Санкт-Петербург</h2>
-        </div>
+        <button
+          class="header__location"
+          type="button"
+          aria-label="место">
+            <div class="header__location-icon"></div>
+            <span class="header__place">Санкт-Петербург</span>
+        </button>
         <nav class="header__row-links">
           <ul class="header__row-list">
             <li class="header__list-item">
@@ -37,14 +36,13 @@
             </li>
           </ul>
         </nav>
-        <div class="header__button-move">
-          <button
-            class="header__button-like"
-            type="button"
-            aria-label="нравится">
-          </button>
-          <h2 class="header__button-title">хочу пойти</h2>
-        </div>
+        <button
+          class="header__button-move"
+          type="button"
+          aria-label="нравится">
+            <div class="header__button-like"></div>
+            <span class="header__button-title">хочу пойти</span>
+        </button>
         <button
           class="header__button-to-support"
           type="button"
@@ -59,20 +57,23 @@
       <!-- Content -->
       <main class="content">
         <!-- Lead -->
-        <section class="lead">
+        <section class="lead page__content">
           <div class="lead__picture">
             <img
               src="./images/lead__logo.svg"
               alt="логотип"
               class="lead__logo">
           </div>
-          <h2 class="lead__title">узнать больше</h2>
-          <div class="lead_button"></div>
+          <div>
+            <a href="#link" class="lead__title">узнать больше
+              <div class="lead_button"></div>
+            </a>
+          </div>
         </section>
         <!-- About -->
         <section class="about">
           <div class="about__content">
-            <h2 class="about__heading">просто приятно помогать</h2>
+            <h2 id="link" class="about__heading">просто приятно помогать</h2>
             <div class="about__text-block">
               <a href="#" class="about__text">Пейте кофе в любимых заведениях, посещайте интересные мероприятия,
                 устраивайте домашние посиделки с друзьями — и помогайте бездомным!</a>

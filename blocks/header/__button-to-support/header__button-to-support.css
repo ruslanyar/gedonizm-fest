@@ -2,19 +2,19 @@
   background-image: url(../../../images/header__button-to-support.svg);
   background-position: center;
   background-size: 100%;
-  width: 153px;
+  min-width: 153px;
   height: 48px;
   background-color: #FFD400;
   border-style: none;
   cursor: pointer;
   transition: opasity .4s;
-  margin-right: 8px;
   display: none;
+  padding: 0;
 }
 
-@media (min-width: 1440px) {
+@media all and (min-width: 768px) {
   .header__button-to-support {
     display: flex;
-    margin-left: 32px;
+    margin-left: 8px;
   }
 }
