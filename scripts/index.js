@@ -47,6 +47,13 @@ menuBtn.addEventListener('click', () => {
   citySelect.classList.toggle('opened-menu_disabled');
 })
 
+//Работа кнопки location desktop
+const locationBtn = document.querySelector('.header__location');
+locationBtn.addEventListener('click', () => {
+  openedMenu.classList.toggle('opened-menu_disabled');
+  citySelect.classList.toggle('opened-menu_disabled');
+})
+
 //Кнопка выбор города
 const citySelectBtn = document.querySelector('.opened-menu__select-button');
 citySelectBtn.addEventListener('click', () => {
