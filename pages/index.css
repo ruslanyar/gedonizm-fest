@@ -12,7 +12,6 @@
 @import url('../blocks/radio-group/radio-group.css');
 @import url('../blocks/radio-group/__check/radio-group__check.css');
 @import url('../blocks/radio-group/__item/radio-group__item.css');
-@import url('../blocks/radio-group/__label/radio-group__label.css');
 
 /* Events */
 @import url('../blocks/events/events.css');
