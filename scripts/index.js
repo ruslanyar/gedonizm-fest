@@ -55,7 +55,7 @@ locationBtn.addEventListener('click', () => {
 })
 
 //Кнопка выбор города
-const citySelectBtn = document.querySelector('.opened-menu__select-button');
+const citySelectBtn = document.querySelector('.opened-menu__city-selector');
 citySelectBtn.addEventListener('click', () => {
   citySelect.classList.remove('opened-menu__city-select_disabled');
 })
@@ -77,6 +77,13 @@ for (let i=0; i<cityRadioBtns.length; i++)
     targetCity.textContent = evt.target.value;
   }));
 }
+
+const donateBtn = document.querySelector('.opened-menu_donate-button');
+donateBtn.addEventListener('click', () => {
+  openedMenu.classList.toggle('opened-menu_disabled');
+  citySelect.classList.toggle('opened-menu_disabled');
+  openPopup(popup);
+})
 /*функционал секции photo-gallery*/
 /*добавление класса к карточке для переключения фото в секции photo-gallery*/
 function checkPhoto(photo) {
