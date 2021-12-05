@@ -6,6 +6,7 @@ const closeFormBtn = popup.querySelector('.popup__close-btn');
 const formFieldAmount = popup.querySelector('.form__field_type_amount');
 const formFieldAmountRadioButtons = formFieldAmount.querySelectorAll('.form__input-radio');
 const inputAmount = popup.querySelector('.form__input-amount');
+const header = document.querySelector('.header');
 
 function openPopup (elem) {
   elem.classList.add('popup_is-opened');
@@ -26,6 +27,22 @@ closeFormBtn.addEventListener('click', () => closePopup(popup));
 formPayment.addEventListener('submit', (evt) => {
   evt.preventDefault();
   closePopup(popup);
+});
+
+let prevScroll = window.scrollY;
+let curScroll;
+
+window.addEventListener('scroll', () => {
+  curScroll = window.scrollY;
+  const headerHidden = header.classList.contains('header_hidden');
+
+  if (curScroll > prevScroll && !headerHidden) {
+    header.classList.add('header_hidden');
+  } else if (curScroll < prevScroll && headerHidden) {
+    header.classList.remove('header_hidden');
+  }
+
+  prevScroll = curScroll;
 });
 
 inputAmount.addEventListener('keyup', (evt) => {
