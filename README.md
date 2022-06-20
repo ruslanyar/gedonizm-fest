@@ -38,3 +38,5 @@
 3. Лейман Ярослав
 4. Шевелев Адександр
 5. Ярмухаметов Руслан
+---
+[*Проект*](https://ruslanyar.github.io/gedonizm-fest/) на ***GitHub Pages***
